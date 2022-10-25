@@ -1,0 +1,49 @@
+/* Write your CSS here */
+.bgContainer {
+  background-color: #93c5fd;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.card {
+  width: 500px;
+  background-color: #f8fafc;
+  border-radius: 7px;
+  padding: 10px;
+}
+.title {
+  text-align: center;
+  font-family: Roboto;
+  font-weight: 500;
+}
+.dropDown {
+  height: 40px;
+  width: 200px;
+  font-size: 20px;
+  margin-left: 20px;
+  color: #000000;
+  border-color: #1e293b;
+  font-weight: 500;
+  display: inline;
+  cursor: pointer;
+  outline: none;
+}
+.selectContainer {
+  display: flex;
+  padding: 10px;
+  margin-bottom: 0px;
+}
+.question {
+  font-weight: 400;
+  font-size: 20px;
+  margin-top: 0px;
+  margin-left: 5px;
+}
+.capital {
+  font-weight: 500;
+  font-size: 20px;
+  margin-top: 0px;
+  margin-left: 40px;
+}
